@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    /*"Beautiful reef and orange fish in Okinawa sea." by Hiroko Yoshii is licensed under Unsplash*/
+    background-image: url(Images/deepsea.jpg);
+    background-size: cover;
+    font: 14px Verdana, sans-serif;
+    color: #0b0b68;
+}
+
+header {
+    padding: 10px 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav {
+    padding: 5px 20px;
+    background-color: paleturquoise;
+    text-align: center;
+    color: #0b0b68;
+}
+
+nav li a:hover {
+    color: coral;
+}
+
+h2 {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+}
+
+aside,
+section {
+    float: left;
+    padding: 20px;
+    min-height: 170px;
+    box-sizing: border-box;
+}
+
+section {
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+aside {
+    width: 20%;
+    background-color: coral;
+    height: 800px;
+}
+
+aside table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 10pt;
+    margin: 0 5px;
+}
+
+nav ul {
+    list-style: none;
+    line-height: 4px;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #0F144C;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+footer {
+    background-color: paleturquoise;
+    text-align: center;
+    padding: 5px;
+}
